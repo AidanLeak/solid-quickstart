@@ -1,0 +1,55 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Container styling */
+.proposal-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #e63946;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Select box styling */
+#response {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Response option styling */
+option {
+    color: #333;
+}
+
+/* Signature styling */
+.proposal-container p:last-of-type {
+    margin-top: 20px;
+}
